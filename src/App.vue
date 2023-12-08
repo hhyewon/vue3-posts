@@ -1,6 +1,8 @@
 <template>
-	<TheHeader></TheHeader>
-	<TheView></TheView>
+	<div>
+		<TheHeader></TheHeader>
+		<TheView></TheView>
+	</div>
 </template>
 
 <script setup>
@@ -8,4 +10,4 @@ import TheHeader from './layouts/TheHeader.vue';
 import TheView from './layouts/TheView.vue';
 </script>
 
-<style></style>
+<style scoped></style>
